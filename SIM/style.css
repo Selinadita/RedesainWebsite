@@ -1,0 +1,83 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(1, 1, 1, 0.8);
+    padding: 1.4rem 7%;
+    border-bottom: 1px solid #132043;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+main {
+    padding: 1.4rem 7%;
+}
+
+h3 {
+    color: #D2691E;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.3rem;
+}
+
+.Layanan-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.layanan1-img {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.text-container {
+    flex-grow: 1;
+}
